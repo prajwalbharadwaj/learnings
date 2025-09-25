@@ -1,0 +1,40 @@
+But loops have an additional parameter, which has many names. But for the moment, you can think of this as an incrementer
+or loop counter. To understand why the counter
+variable is so important, let's consider a
+real-life situation. We're counting down from 10-1, before singing Happy New Year. In other words, only after
+we have completed the count, we can start singing. Those our countered needs
+to be a specific value, a one and only after that, we can sing a song. In JavaScript, the
+counter can be any variable or any number
+but in programming, it's common to use the letter I. The role of the counter is
+vital here, as, without it, your loop will not
+know neither when to start nor when to terminate, and could run indefinitely. This is known as
+an infinite loop. For example, say you
+wanted to program a count sequence like 1,2,3. You could do this just by
+using the console.log method. However, we are essentially performing the same
+activity here. The only difference is
+that we're changing the number that is being
+logged to the console. Using a loop, we could
+perform the same task more efficiently and
+using less lines of code. While this might seem like a minimal gain for
+counting to three, imagine counting to 100. Using a loop, you
+can achieve this with the exact same
+three lines of code. You just have to
+update the condition. There are many types of loops, such as the for loop, the while loop, and
+the nested loop. You will learn about
+the nested loops later in this lesson. For now, let's explore
+the far end while loop. First is the for-loop, which is used to loop a block of code a certain number of times. The for-loop is a
+structured loop with a specific conditional structure where a counter
+variable must be set. Then a condition must be
+specified and finally, the counter must be incremented. This can either
+be an increase or a decrease depending
+on your needs. The while loop is
+similar to the for-loop. It will also run for as long as the condition
+returns true. However, the start
+counter is set outside of the while loop and
+the incrementing is done inside the loop's body. Congratulations. In this video, you learned about
+loop construction using the far and while loop. While you can achieve the
+same results using either a for or while loop as
+a budding developer, you might find it easier
+to work with the for-loop. This is because the loop is self-contained with all the
+loop's logic in one place. Additionally, always remember to update the counter value, otherwise, the loop
+might loop forever.
